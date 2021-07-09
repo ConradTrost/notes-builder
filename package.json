@@ -1,40 +1,22 @@
 {
   "name": "notes-builder",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^11.2.7",
-    "@testing-library/user-event": "^12.8.3",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-helmet": "^6.1.0",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "^4.0.3",
-    "web-vitals": "^1.1.2"
-  },
+  "version": "1.0.0",
+  "description": "Web app to build custom note-taking apps",
+  "main": "server: server/server.js frontend: client/src/App.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ConradTrost/notes-builder.git"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "author": "Conrad Trost",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ConradTrost/notes-builder/issues"
+  },
+  "homepage": "https://github.com/ConradTrost/notes-builder#readme",
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
